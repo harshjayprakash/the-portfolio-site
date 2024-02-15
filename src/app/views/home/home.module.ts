@@ -8,6 +8,7 @@ import { HomePage } from './home.page';
     ],
     imports: [
         CommonModule
-    ]
+    ],
+    exports: [HomePage]
 })
 export class HomeModule { }
