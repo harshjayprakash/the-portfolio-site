@@ -1,0 +1,25 @@
+:root {
+    --clr-slate-050: hsl(210, 40%, 98%);
+    --clr-slate-100: hsl(210, 40%, 96%);
+    --clr-slate-200: hsl(214, 32%, 91%);
+    --clr-slate-300: hsl(213, 27%, 84%);
+    --clr-slate-400: hsl(215, 20%, 65%);
+    --clr-slate-500: hsl(215, 16%, 47%);
+    --clr-slate-600: hsl(215, 20%, 35%);
+    --clr-slate-700: hsl(215, 25%, 27%);
+    --clr-slate-800: hsl(217, 33%, 17%);
+    --clr-slate-900: hsl(222, 47%, 11%);
+    --clr-slate-950: hsl(229, 84%, 5%);
+
+    --clr-teal-050: hsl(166, 76%, 97%);
+    --clr-teal-100: hsl(167, 85%, 89%);
+    --clr-teal-200: hsl(168, 84%, 78%);
+    --clr-teal-300: hsl(171, 77%, 64%);
+    --clr-teal-400: hsl(172, 66%, 50%);
+    --clr-teal-500: hsl(173, 80%, 40%);
+    --clr-teal-600: hsl(175, 84%, 32%);
+    --clr-teal-700: hsl(175, 77%, 26%);
+    --clr-teal-800: hsl(176, 69%, 22%);
+    --clr-teal-900: hsl(176, 61%, 19%);
+    --clr-teal-950: hsl(179, 84%, 10%);
+}
