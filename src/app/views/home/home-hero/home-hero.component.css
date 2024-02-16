@@ -1,0 +1,49 @@
+.hero {
+    display: grid;
+    gap: 1rem;
+}
+
+.hero > * {
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+.hero .main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .main-text .interest {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.hero .main-text .title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero .card-link {
+    background-color: var(--cdl-background);
+}
+
+.hero .card-link:hover {
+    background-color: var(--cdlh-background);
+}
+
+@media (width > 800px) {
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .hero .main-text {
+        grid-row: 1 / 3;
+    }
+
+    .hero .about-me {
+        grid-row: 3 / 4;
+    }
+}
