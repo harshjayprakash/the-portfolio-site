@@ -1,27 +1,25 @@
-# PortfolioSite
+# Portfolio Site
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+> A personal portfolio website that aids in showcasting projects and skills.
 
-## Development server
+## Limitations
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Under Construction
 
-## Code scaffolding
+## Hosting
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* This website is hosted on Netlify <https://harshjay.netlify.app>
+* Experimental Version of the website <https://harshjay-experimental.netlify.app>
 
-## Build
+## Acknowledgements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* CSS Reset by Andy Bell (as of 04/02/2024) - <https://piccalil.li/blog/a-more-modern-css-reset/>
+* Tailwind CSS Colours (v3.4.1, Slate and Teal) - <https://tailwindcss.com/docs/customizing-colors>
 
-## Running unit tests
+The fonts used within this website, both under the SIL Open Font Licence:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Cabin Font Family - <https://github.com/impallari/Cabin.git>
+* Inter Font Family - <https://github.com/rsms/inter.git>
+* Flow Typeface Font - <https://github.com/HYPD/flow-typeface>
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+These fonts are stored under src/assets/fonts, along with their licence and copyright. These are self-hosted due to GDPR concerns of using Google Fonts.
