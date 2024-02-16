@@ -1,0 +1,9 @@
+:root {
+    --scp-gbl: 2rem;
+}
+
+@media (width > 800px) {
+    :root {
+        --scp-gbl: 2rem 6vw;
+    }
+}
