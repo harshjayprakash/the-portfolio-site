@@ -1,0 +1,29 @@
+.hero {
+    height: 100vh;
+    display: grid;
+    place-items: end start;
+}
+
+.hero .intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .intro .title * {
+    display: block;
+    font-size: 2rem;
+}
+
+.hero .intro .title .what {
+    font-weight: 700;
+}
+
+.hero .intro .title .what {
+    font-weight: 400;
+}
+
+.hero .intro .about {
+    width: 40ch;
+}
+
+
