@@ -4,12 +4,14 @@ import { HomePage } from './home.page';
 import { RouterModule } from "@angular/router";
 import { HomeHeroComponent } from './home-hero/home-hero.component';
 import { HomeSkillsComponent } from './home-skills/home-skills.component';
+import { HomePastProjectsComponent } from './home-past-projects/home-past-projects.component';
 
 @NgModule({
     declarations: [
         HomePage,
         HomeHeroComponent,
-        HomeSkillsComponent
+        HomeSkillsComponent,
+        HomePastProjectsComponent
     ],
     imports: [
         CommonModule,
