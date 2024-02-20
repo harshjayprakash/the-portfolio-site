@@ -1,12 +1,16 @@
 .hero {
     height: 100vh;
     display: grid;
-    place-items: end start;
+    max-width: 1408px;
+    place-items: center left;
+    margin: auto;
+    padding: 3rem;
 }
 
 .hero .intro {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .hero .intro .title * {
@@ -14,7 +18,7 @@
     font-size: 2rem;
 }
 
-.hero .intro .title .what {
+.hero .intro .title .skill {
     font-weight: 700;
 }
 
@@ -23,7 +27,7 @@
 }
 
 .hero .intro .about {
-    width: 40ch;
+    width: 35ch;
 }
 
 
