@@ -1,27 +1,24 @@
 <section ngClass="skills">
-    <h2>Skills</h2>
+    <h2 ngClass="title | font-fixel">Skills</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores accusamus
         nostrum maxime libero officia aliquid laborum blanditiis numquam possimus nemo,
         dolorem ullam aspernatur. Suscipit maiores sit inventore harum aperiam omnis.</p>
-    <div ngClass="dev-skills">
-        <h3>Developer</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae illum
-            consectetur dolores esse impedit molestias amet sint dignissimos, nisi fugit.
-            Incidunt, molestiae mollitia? Odit, corporis.</p>
-        <span>HTML &#9643; CSS &#9643; TypeScript &#9643; C &#9643; Python &#9643;
-            Java &#9643; VB.NET</span>
-        <span>Angular &#9643; .NET</span>
-        <span>Git &#9643; GitHub &#9643; PowerShell</span>
-    </div>
-    <div ngClass="art-skills">
-        <h3>Artist</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae illum
-            consectetur dolores esse impedit molestias amet sint dignissimos, nisi fugit.
-            Incidunt, molestiae mollitia? Odit, corporis.</p>
-        <span>HTML &#9643; CSS &#9643; TypeScript &#9643; C &#9643; Python &#9643;
-            Java &#9643; VB.NET</span>
-        <span>Angular &#9643; .NET</span>
-        <span>Git &#9643; GitHub &#9643; PowerShell</span>
-    </div>
-
+    <br/>
+    <section ngClass="skill-list">
+        <article ngClass="skill-card">
+            <h3 ngClass="subtitle | font-fixel">Developer</h3>
+            <p ngClass="description">I like programming, whether it is web or native
+                                     development.</p>
+            <span>Languages: HTML &#9643; CSS &#9643; TypeScript &#9643; C &#9643; Python &#9643;
+                Java &#9643; VB.NET</span>
+            <span>Frameworks: Angular &#9643; .NET</span>
+            <span>Tools: Git &#9643; GitHub &#9643; PowerShell</span>
+        </article>
+        <article ngClass="skill-card">
+            <h3 ngClass="subtitle | font-fixel">Artist</h3>
+            <p ngClass="description">I may not be graphic designer, but I took Fine Art
+                                     at College, so I have learnt some concepts.</p>
+            <span>Pen & Paper &#9643; Pattern &#9643; Colour Theory</span>
+        </article>
+    </section>
 </section>
