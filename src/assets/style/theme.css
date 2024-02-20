@@ -8,6 +8,10 @@
     :root {
         --gbl-background: var(--clr-slate-050);
         --gbl-foreground: var(--clr-slate-950);
+
+        --ccd-background: var(--clr-slate-100);
+        --ccd-border: var(--clr-slate-200);
+        --ccd-foreground: var(--clr-slate-950);
     }
 }
 
@@ -15,6 +19,10 @@
     :root {
         --gbl-background: var(--clr-slate-950);
         --gbl-foreground: var(--clr-slate-050);
+
+        --ccd-background: var(--clr-slate-900);
+        --ccd-border: var(--clr-slate-800);
+        --ccd-foreground: var(--clr-slate-050);
     }
 }
 
