@@ -24,15 +24,27 @@
 
 @font-face {
     font-family: 'Flow Block';
-    src: url('./flow/flow-block.ttf')
+    src: url('./flow/flow-block.ttf');
 }
 
 @font-face {
     font-family: 'Flow Circular';
-    src: url('./flow/flow-circular.ttf')
+    src: url('./flow/flow-circular.ttf');
 }
 
 @font-face {
     font-family: 'Flow Rounded';
     src: url('./flow/flow-rounded.ttf');
+}
+
+@font-face {
+    font-family: 'Fixel';
+    font-style: normal;
+    src: url('./fixel/fixel-roman.ttf');
+}
+
+@font-face {
+    font-family: 'Fixel';
+    font-style: italic;
+    src: url('./fixel/fixel-italic.ttf');
 }
