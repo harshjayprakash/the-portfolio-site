@@ -1,9 +1,7 @@
 .hero {
     height: 100vh;
     display: grid;
-    max-width: 1408px;
     place-items: center left;
-    margin: auto;
     padding: 3rem;
 }
 
