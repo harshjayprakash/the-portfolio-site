@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'pf-footer',
     templateUrl: './footer.component.html',
     styleUrl: './footer.component.css'
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
+
+    copyrightYear!: string;
+
+    constructor() { }
+
+    ngOnInit(): void {
+        this.copyrightYear = (new Date()).getFullYear().toString();
+    }
 
 }
