@@ -1,0 +1,7 @@
+.footer {
+    padding: 3rem;
+}
+
+.footer .divider {
+    border: 1px solid var(--ccd-border);
+}
