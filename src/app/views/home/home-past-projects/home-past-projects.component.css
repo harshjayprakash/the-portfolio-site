@@ -19,7 +19,6 @@
 .project-list .default-style {
     background-color: var(--gbl-background);
     color: var(--gbl-foreground);
-    border: unset;
 }
 
 .project-list .project-card .description {
