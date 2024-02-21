@@ -12,6 +12,9 @@
         --ccd-background: var(--clr-slate-100);
         --ccd-border: var(--clr-slate-200);
         --ccd-foreground: var(--clr-slate-950);
+
+        --ctl-lnk-border: var(--clr-teal-600);
+        --ctl-lnk-foreground: var(--clr-slate-700);
     }
 }
 
@@ -23,6 +26,10 @@
         --ccd-background: var(--clr-slate-900);
         --ccd-border: var(--clr-slate-800);
         --ccd-foreground: var(--clr-slate-050);
+
+        --ctl-lnk-border: var(--clr-teal-600);
+        --ctlh-lnk-border: var(--clr-teal-300);
+        --ctlh-lnk-foreground: var(--clr-teal-300);
     }
 }
 
