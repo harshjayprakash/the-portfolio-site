@@ -1,1 +1,15 @@
-<p>header works!</p>
+<header ngClass="header">
+    <input type="checkbox" ngClass="menu" id="nav-menu" [(ngModel)]="showMenu"/>
+    <label ngClass="menu-label" for="nav-menu">
+        <span ngClass="menu-design"></span>
+    </label>
+    <span ngClass="logo">Harsh.</span>
+    <nav ngClass="nav">
+        @for (route of routes_; track $index) {
+            <a ngClass="nav-link" [routerLink]="route.path" (click)="onNavLinkClick()">{{ route.title }}</a>
+            @if ($index !== routes_.length - 1) {
+                <span ngClass="nav-dot"> • </span>
+            }
+        }
+    </nav>
+</header>
