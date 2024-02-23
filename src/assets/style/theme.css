@@ -9,6 +9,11 @@
         --gbl-background: var(--clr-slate-050);
         --gbl-foreground: var(--clr-slate-950);
 
+        --nav-background: var(--clr-slate-050);
+        --nav-foreground: var(--clr-slate-950);
+        --nav-border: var(--clr-slate-200);
+        --nav-accent: var(--clr-teal-700);
+
         --ccd-background: var(--clr-slate-100);
         --ccd-border: var(--clr-slate-200);
         --ccd-foreground: var(--clr-slate-950);
@@ -22,6 +27,11 @@
     :root {
         --gbl-background: var(--clr-slate-950);
         --gbl-foreground: var(--clr-slate-050);
+
+        --nav-background: var(--clr-slate-950);
+        --nav-foreground: var(--clr-slate-050);
+        --nav-border: var(--clr-slate-700);
+        --nav-accent: var(--clr-teal-300);
 
         --ccd-background: var(--clr-slate-900);
         --ccd-border: var(--clr-slate-800);
