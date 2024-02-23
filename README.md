@@ -2,6 +2,12 @@
 
 > A personal portfolio website that aids in showcasting projects and skills.
 
+## Web Framework and Structure
+
+* Angular 17.
+
+![Module and Component Diagram](/doc/component.drawio.png)
+
 ## Limitations
 
 * Under Construction
@@ -23,3 +29,6 @@ The fonts used within this website, both under the SIL Open Font Licence:
 * Flow Typeface Font - <https://github.com/HYPD/flow-typeface>
 
 These fonts are stored under src/assets/fonts, along with their licence and copyright. These are self-hosted due to GDPR concerns of using Google Fonts.
+
+
+[def]: ds
