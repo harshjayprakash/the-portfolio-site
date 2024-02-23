@@ -4,7 +4,7 @@
 
 ## Web Framework and Structure
 
-* Angular 17.
+Written in Angular 17 with the routing and non standalone flag on project generation.
 
 ![Module and Component Diagram](/doc/component.drawio.png)
 
