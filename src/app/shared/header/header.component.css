@@ -1,0 +1,98 @@
+.header {
+    margin: 1rem 3rem;
+    top: 1rem;
+    position: fixed;
+    display: flex;
+    box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    background-color: var(--nav-background);
+    border: 0.1rem solid var(--nav-border);
+}
+
+.header > * {
+    max-height: 3rem;
+    padding: 1rem;
+}
+
+.header .logo {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.header .nav-link {
+    text-decoration: none;
+    color: var(--nav-foreground);
+    border-bottom: 0.15rem solid var(--nav-background);
+}
+
+.header .nav-link:hover {
+    font-weight: 500;
+    border-bottom: 0.15rem solid var(--nav-accent);
+}
+
+.header .nav-active-link {
+    border-bottom: 0.15rem solid var(--nav-accent);
+}
+
+.header .menu,
+.header .menu-label,
+.header .menu-design {
+    display: none;
+}
+
+
+@media (max-width: 800px) {
+
+    .header .menu-label,
+    .header .menu-design {
+        display: block;
+    }
+
+    .header .menu-design,
+    .header .menu-design::before,
+    .header .menu-design::after {
+        display: block;
+        background-color: var(--nav-foreground);
+        width: 1rem;
+        height: 2px;
+        position: relative;
+    }
+
+    .header .nav {
+        position: fixed;
+        top: 6rem;
+        backdrop-filter: blur(5px);
+        background-color: var(--nav-background);
+        box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        width: max-content;
+        min-height: 16rem;
+        display: none;
+        border: 0.15rem solid var(--nav-border);
+    }
+    .header .nav-link {
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .header .nav-dot {
+        display: none;
+    }
+
+    .header .menu:checked ~ .nav {
+        display: unset;
+    }
+
+    .header .menu-design::before,
+    .header .menu-design::after {
+        content: '';
+        position: relative;
+    }
+
+    .header .menu-design::before {
+        bottom: -7px;
+    }
+
+    .header .menu-design::after {
+        bottom: -12px;
+    }
+}
