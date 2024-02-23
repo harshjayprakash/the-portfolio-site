@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PortfolioComponent } from './portfolio.component';
+import { PortfolioPage } from './portfolio.page';
 
 @NgModule({
     declarations: [
-        PortfolioComponent
+        PortfolioPage
     ],
     imports: [
         CommonModule
