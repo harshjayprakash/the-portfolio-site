@@ -1,5 +1,5 @@
 [build]
-    publish = "dist/portfolio-site"
+    publish = "dist/portfolio-site/browser"
     command = "npx ng build --prod"
 
 [[plugins]]
