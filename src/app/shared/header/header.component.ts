@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Routes } from "@angular/router";
-import { ROUTES } from "../../views/views.module";
+import { Routes } from '@angular/router';
+
+import { ROUTES } from '../../views/views.module';
 
 @Component({
     selector: 'pf-header',

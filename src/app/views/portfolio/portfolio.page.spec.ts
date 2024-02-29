@@ -9,8 +9,7 @@ describe('PortfolioPage', () => {
     beforeEach(async () => {
         await TestBed.configureTestingModule({
             declarations: [PortfolioPage]
-        })
-            .compileComponents();
+        }).compileComponents();
 
         fixture = TestBed.createComponent(PortfolioPage);
         component = fixture.componentInstance;
