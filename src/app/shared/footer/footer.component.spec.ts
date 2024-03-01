@@ -41,7 +41,7 @@ describe('Shared Module > Footer Component', () => {
     });
 
     it('should render link labels', () => {
-        expect(compiledHTML.querySelector('a.link-label')).toBeTruthy();
+        expect(compiledHTML.querySelector('a.button-label')).toBeTruthy();
     });
 
 });
