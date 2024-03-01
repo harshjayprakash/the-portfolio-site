@@ -14,8 +14,7 @@ Written in Angular 17 with the routing and non standalone flag on project genera
 
 ## Hosting
 
-* This website is hosted on Netlify <https://harshjay.netlify.app>
-* Experimental Version of the website <https://harshjay-experimental.netlify.app>
+* This website is hosted on Vercel using the free tier.
 
 ## Acknowledgements
 
