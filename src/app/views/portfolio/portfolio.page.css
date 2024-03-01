@@ -1,0 +1,21 @@
+.portfolio-page {
+    padding: 7rem 3rem 3rem;
+}
+
+.portfolio-page .topic-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.topic-card {
+    border: 1px solid var(--ccd-border);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+@media (min-width: 800px) {
+    .portfolio-page .topic-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
