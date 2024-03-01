@@ -11,7 +11,7 @@ import { ReferencesPage } from './references.page';
     imports: [
         CommonModule,
         RouterModule.forChild([
-            { path: '', title: 'Acknowledgements', component: ReferencesModule }
+            { path: '', title: 'Acknowledgements', component: ReferencesPage }
         ])
     ],
     exports: [RouterModule]

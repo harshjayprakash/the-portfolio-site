@@ -12,7 +12,7 @@ import { ComputerSciencePage } from './computer-science.page';
         CommonModule,
         RouterModule.forChild([
             { path: '', title: 'Computer Science Portfolio',
-                component: ComputerScienceModule }
+                component: ComputerSciencePage }
         ])
     ],
     exports: [RouterModule]
