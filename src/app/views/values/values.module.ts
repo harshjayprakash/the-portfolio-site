@@ -10,9 +10,8 @@ import { ValuesPage } from './values.page';
     ],
     imports: [
         CommonModule,
-        RouterModule.forChild([
-            { path: '', title: 'Values', component: ValuesPage }
-        ])
-    ]
+        RouterModule.forChild([{ path: '', title: 'Values', component: ValuesPage }])
+    ],
+    exports: [RouterModule]
 })
 export class ValuesModule { }

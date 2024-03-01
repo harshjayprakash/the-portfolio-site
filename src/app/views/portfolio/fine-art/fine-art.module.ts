@@ -13,6 +13,7 @@ import { FineArtComponent } from './fine-art.page';
         RouterModule.forChild([
             { path: '', title: 'Fine Art Portfolio', component: FineArtComponent }
         ])
-    ]
+    ],
+    exports: [RouterModule]
 })
 export class FineArtModule { }
