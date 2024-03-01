@@ -4,7 +4,8 @@
     position: fixed;
     display: flex;
     background-color: var(--nav-background);
-    border: 0.1rem solid var(--nav-border);
+    border: 0.05rem solid var(--nav-border);
+    border-radius: 5px;
 }
 
 .header > * {
@@ -64,7 +65,7 @@
         width: max-content;
         min-height: 16rem;
         display: none;
-        border: 0.15rem solid var(--nav-border);
+        border: 0.05rem solid var(--nav-border);
     }
     .header .nav-link {
         display: block;
