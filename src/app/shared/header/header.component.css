@@ -3,7 +3,6 @@
     top: 1rem;
     position: fixed;
     display: flex;
-    box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     background-color: var(--nav-background);
     border: 0.1rem solid var(--nav-border);
 }
@@ -62,7 +61,6 @@
         position: fixed;
         top: 6rem;
         background-color: var(--nav-background);
-        box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
         width: max-content;
         min-height: 16rem;
         display: none;
