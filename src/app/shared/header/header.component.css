@@ -68,7 +68,7 @@
         top: 6rem;
         background-color: var(--nav-background);
         width: max-content;
-        min-height: 16rem;
+        min-height: 11rem;
         display: none;
         border: 0.05rem solid var(--nav-border);
     }
