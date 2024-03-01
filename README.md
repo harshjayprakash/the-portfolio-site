@@ -23,8 +23,6 @@ Written in Angular 17 with the routing and non standalone flag on project genera
 
 The fonts used within this website, both under the SIL Open Font Licence:
 
-* Cabin Font Family - <https://github.com/impallari/Cabin.git>
-* Inter Font Family - <https://github.com/rsms/inter.git>
-* Flow Typeface Font - <https://github.com/HYPD/flow-typeface>
+* Giest Font Family - <https://vercel.com/font>
 
 These fonts are stored under src/assets/fonts, along with their licence and copyright. These are self-hosted due to GDPR concerns of using Google Fonts.
