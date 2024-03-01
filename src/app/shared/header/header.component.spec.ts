@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HeaderComponent } from './header.component';
+import { SharedModule } from '../shared.module';
 
 describe('HeaderComponent', () => {
     let component: HeaderComponent;
@@ -8,6 +9,7 @@ describe('HeaderComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
+            imports: [SharedModule],
             declarations: [HeaderComponent]
         }).compileComponents();
 
@@ -19,4 +21,6 @@ describe('HeaderComponent', () => {
     it('should create', () => {
         expect(component).toBeTruthy();
     });
+
+
 });
