@@ -1,7 +1,6 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Giest', sans-serif;
 }
 
-.font-inter { font-family: 'Inter', sans-serif; }
-.font-cabin { font-family: 'Cabin', sans-serif; }
-.font-fixel { font-family: 'Fixel', sans-serif; }
+.font-sans-serif { font-family: 'Giest', sans-serif; }
+.font-monospace { font-family: 'Giest Mono', monospace; }

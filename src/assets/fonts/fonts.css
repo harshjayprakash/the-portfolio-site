@@ -1,50 +1,9 @@
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    src: url('./inter/inter-roman.ttf');
+    font-family: 'Giest';
+    src: url('./giest/GeistVariableVF.woff2');
 }
 
 @font-face {
-    font-family: 'Inter';
-    font-style: italic;
-    src: url('./inter/inter-italic.ttf');
-}
-
-@font-face {
-    font-family: 'Cabin';
-    font-style: normal;
-    src: url('./cabin/cabin-roman.ttf');
-}
-
-@font-face {
-    font-family: 'Cabin';
-    font-style: italic;
-    src: url('./cabin/cabin-italiic.ttf');
-}
-
-@font-face {
-    font-family: 'Flow Block';
-    src: url('./flow/flow-block.ttf');
-}
-
-@font-face {
-    font-family: 'Flow Circular';
-    src: url('./flow/flow-circular.ttf');
-}
-
-@font-face {
-    font-family: 'Flow Rounded';
-    src: url('./flow/flow-rounded.ttf');
-}
-
-@font-face {
-    font-family: 'Fixel';
-    font-style: normal;
-    src: url('./fixel/fixel-roman.ttf');
-}
-
-@font-face {
-    font-family: 'Fixel';
-    font-style: italic;
-    src: url('./fixel/fixel-italic.ttf');
+    font-family: 'Giest Mono';
+    src: url('./giest-mono/GeistMonoVariableVF.woff2');
 }
