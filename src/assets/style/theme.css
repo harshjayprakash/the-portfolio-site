@@ -13,6 +13,7 @@
         --nav-foreground: var(--clr-slate-950);
         --nav-border: var(--clr-slate-200);
         --nav-accent: var(--clr-teal-700);
+        --navh-background: var(--clr-slate-200);
 
         --ccd-background: var(--clr-slate-100);
         --ccd-border: var(--clr-slate-200);
@@ -32,6 +33,7 @@
         --nav-foreground: var(--clr-slate-050);
         --nav-border: var(--clr-slate-700);
         --nav-accent: var(--clr-teal-300);
+        --navh-background: var(--clr-slate-700);
 
         --ccd-background: var(--clr-slate-900);
         --ccd-border: var(--clr-slate-800);
