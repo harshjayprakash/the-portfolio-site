@@ -1,0 +1,10 @@
+.fine-art {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 3rem 3rem;
+}
+
+.fine-art .back {
+    margin-bottom: 0.5rem;
+    max-width: fit-content;
+}
