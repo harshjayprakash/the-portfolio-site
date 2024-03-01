@@ -20,14 +20,14 @@
 
 
 .header .nav-link {
+    padding: 0.25rem 0.4rem;
     text-decoration: none;
+    border-radius: 5px;
     color: var(--nav-foreground);
-    border-bottom: 0.15rem solid var(--nav-background);
 }
 
 .header .nav-link:hover {
-    font-weight: 500;
-    border-bottom: 0.15rem solid var(--nav-accent);
+    background-color: var(--navh-background);
 }
 
 .header .nav-active-link {
