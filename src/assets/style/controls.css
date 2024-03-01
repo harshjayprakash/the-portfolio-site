@@ -1,4 +1,3 @@
 .link-label {
-    text-decoration: 2px underline var(--ctl-lnk-border);
-    color: var(--ctl-lnk-foreground);
+    color: var(--gbl-foreground);
 }
