@@ -10,7 +10,6 @@ describe('Shared Module > Footer Component', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            imports: [SharedModule],
             declarations: [FooterComponent]
         }).compileComponents();
 
