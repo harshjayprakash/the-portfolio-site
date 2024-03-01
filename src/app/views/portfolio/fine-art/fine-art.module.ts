@@ -1,8 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+
+import { FineArtComponent } from './fine-art.page';
 
 @NgModule({
-    declarations: [],
-    imports: [CommonModule]
+    declarations: [
+        FineArtComponent
+    ],
+    imports: [
+        CommonModule,
+        RouterModule.forChild([
+            { path: '', title: 'Fine Art Portfolio', component: FineArtComponent }
+        ])
+    ],
+    exports: [RouterModule]
 })
 export class FineArtModule { }

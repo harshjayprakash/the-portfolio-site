@@ -1,10 +1,12 @@
 <footer ngClass="footer">
-    <p ngClass="under-contruction">Under Construction ...</p>
+    <p ngClass="under-construction">Under Construction ...</p>
     <p ngClass="copyright">
-        Handcrafted with Angular, Hosted by Netlify &copy; {{ copyrightYear }}
-        Harsh Jayprakash.</p>
+        Handcrafted with Angular, Hosted by Vercel &copy; {{ copyrightYear }}
+        Harsh Jayprakash. <br />
+        Looking for any policies? Please visit the values page.
+    </p>
     <hr ngClass="divider" />
-    <a ngClass="link-label">Sitemap</a> &#9643;
-    <a ngClass="link-label">Acknowledgements</a> &#9643;
-    <a ngClass="link-label">Values</a>
+    <a ngClass="button-label" routerLink="/sitemap">Sitemap</a> &#9702;
+    <a ngClass="button-label" routerLink="/references">Acknowledgements</a> &#9702;
+    <a ngClass="button-label" routerLink="/values">Values</a>
 </footer>

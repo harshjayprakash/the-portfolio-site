@@ -1,4 +1,16 @@
 .link-label {
-    text-decoration: 2px underline var(--ctl-lnk-border);
-    color: var(--ctl-lnk-foreground);
+    color: var(--gbl-foreground);
+}
+
+.button-label {
+    color: var(--gbl-foreground);
+    padding: 0.25rem 0.4rem;
+    text-decoration: none;
+    border-radius: 5px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--gbl-foreground);
+}
+
+.button-label:hover {
+    background-color: var(--ccd-border);
 }
