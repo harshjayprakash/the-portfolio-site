@@ -12,8 +12,6 @@ import { FineArtModule } from './fine-art/fine-art.module';
     ],
     imports: [
         CommonModule,
-        ComputerScienceModule,
-        FineArtModule,
         RouterModule.forChild([
             { path: '', title: 'Portfolio', component: PortfolioPage },
             { path: 'computer-science', title: 'Computer Science Portfolio',
