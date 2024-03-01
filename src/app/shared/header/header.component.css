@@ -65,6 +65,7 @@
 
     .header .nav {
         position: fixed;
+        border-radius: 5px;
         top: 6rem;
         background-color: var(--nav-background);
         width: max-content;
