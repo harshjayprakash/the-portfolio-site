@@ -15,8 +15,9 @@ export const ROUTES: Routes = [
     { path: 'about', title: 'About', loadChildren: () => AboutModule },
     { path: 'sitemap', title: 'Sitemap', loadChildren: () => SitemapModule },
     { path: 'values', title: 'Values', loadChildren: () => ValuesModule },
-    { path: 'references', title: 'References', loadChildren: () => ReferencesModule },
-]
+    { path: 'references', title: 'Acknowledgements',
+        loadChildren: () => ReferencesModule },
+];
 
 @NgModule({
     declarations: [],
