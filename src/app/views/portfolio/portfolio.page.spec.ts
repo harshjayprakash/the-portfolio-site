@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PortfolioPage } from './portfolio.page';
 
-describe('PortfolioPage', () => {
+describe('Views Module > Portfolio Module > Portfolio Page', () => {
     let component: PortfolioPage;
     let fixture: ComponentFixture<PortfolioPage>;
 
