@@ -1,8 +1,8 @@
-.portfolio-page {
+.portfolio {
     padding: 7rem 3rem 3rem;
 }
 
-.portfolio-page .topic-list {
+.portfolio .topic-list {
     display: grid;
     gap: 1rem;
 }
@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 800px) {
-    .portfolio-page .topic-list {
+    .portfolio .topic-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
