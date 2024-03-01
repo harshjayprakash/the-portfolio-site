@@ -10,9 +10,7 @@ import { SitemapPage } from './sitemap.page';
     ],
     imports: [
         CommonModule,
-        RouterModule.forChild([
-            { path: '', title: 'Sitemap', component: SitemapPage }
-        ])
+        RouterModule.forChild([{ path: '', title: 'Sitemap', component: SitemapPage }])
     ],
     exports: [RouterModule]
 })
