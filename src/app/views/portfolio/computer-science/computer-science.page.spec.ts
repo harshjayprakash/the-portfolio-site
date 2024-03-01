@@ -1,0 +1,22 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { ComputerSciencePage } from './computer-science.page';
+
+describe('Views Module > Portfolio Module > Computer Science Module > Computer Science Page', () => {
+    let component: ComputerSciencePage;
+    let fixture: ComponentFixture<ComputerSciencePage>;
+
+    beforeEach(async () => {
+        await TestBed.configureTestingModule({
+            declarations: [ComputerSciencePage]
+        }).compileComponents();
+
+        fixture = TestBed.createComponent(ComputerSciencePage);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    });
+
+    it('should create', () => {
+        expect(component).toBeTruthy();
+    });
+});

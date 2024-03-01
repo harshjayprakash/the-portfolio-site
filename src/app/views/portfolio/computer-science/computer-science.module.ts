@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ComputerSciencePage } from './computer-science.page';
 
 @NgModule({
-    declarations: [],
-    imports: [CommonModule]
+    declarations: [
+        ComputerSciencePage
+    ],
 })
 export class ComputerScienceModule { }
