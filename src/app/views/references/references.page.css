@@ -1,3 +1,23 @@
 .references {
     padding: 7rem 3rem 3rem;
 }
+
+.ref-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.ref-list .ref-card {
+    border: 1px solid var(--ccd-border);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+details > summary {
+    list-style-type: ' ◻ ';
+    transition: height 3s ease-in;
+}
+
+details[open] > summary {
+    list-style-type: ' ◼ ';
+}
